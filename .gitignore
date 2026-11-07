@@ -1,0 +1,23 @@
+# Xcode (the project is generated from project.yml)
+*.xcodeproj/
+*.xcworkspace/
+!Packages/**/*.xcworkspace/
+xcuserdata/
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Local config and secrets
+Config/*.local.xcconfig
+.env
+.env.*
+supabase/.temp/
+supabase/.branches/
+
+.DS_Store
