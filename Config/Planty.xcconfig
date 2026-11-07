@@ -1,0 +1,8 @@
+// Public Supabase settings. Both values are safe to ship in the app: access to data is
+// enforced by Row Level Security. Never put a secret (sb_secret_… / service_role) key here.
+// "$()" stops xcconfig from reading "//" as a comment.
+SUPABASE_URL = https:/$()/fgzzwoamritxvczbprsh.supabase.co
+SUPABASE_PUBLISHABLE_KEY = sb_publishable_XntRiewheAJNtwo0UeULDQ_Hfs2N6LG
+
+// Optional local overrides (for example a staging project), not committed.
+#include? "Planty.local.xcconfig"
